@@ -1,0 +1,255 @@
+*{
+    font-family: 'Rubik';
+    font-weight: lighter;
+}
+body{
+    background-color: var(--background);
+    margin: 0px 0px 0px 0px;
+}
+.siteContainer{
+    z-index: -1;
+    width: 100%;
+}
+
+:root {
+    --shadow: rgb(50,50,50);
+    --clearWhite: rgba(240,240,240,0.6);
+    --tinted: rgba(50,50,50,0.2);
+
+    /*blue --background: rgb(115, 115, 255);*/
+    --background: rgb(255, 50, 50);
+    --header: rgb(50,50,50);
+    --footer: rgba(225,225,225);
+    --navText: rgb(225,225,225);
+
+    --splitDiv: rgb(150,150,150);
+
+    --head: rgb(225,225,225);
+    --para:rgb(50, 50, 50);
+    
+    
+}
+
+
+/* Header */
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    background-color: var(--header);
+    z-index: 1;
+    padding-top: 2px;
+    margin-bottom: 10%;
+}
+#logoTop{
+    height: 100%;
+    text-align: right;
+    margin-right: 5px;
+    filter: drop-shadow(0px 5px 5px var(--shadow));
+}
+#logoTop1{
+    position: absolute;
+    height: 250%;
+    margin-top: .25%;
+    margin-right: 43.5%;
+    margin-left: 43.5%;
+    filter: drop-shadow(0px 5px 5px var(--shadow));
+}
+nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1.5% 0% 2% 0%;
+}
+.navOption{
+    width: 100%;
+    min-width: fit-content;
+    height: 50%;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: transparent;
+    color: var(--navText);
+}
+
+nav a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+
+.navOption{
+    z-index: 1;
+}
+.dropOption{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    Font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: transparent;
+    color: black;
+}
+.navDropdown{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 8px 8px 0px var(--darkGrey);
+    z-index: 10;
+    background-color: var(--clearWhite);
+}
+.dropOption:hover + .navDropdown {
+    display: flex;
+
+}
+.navDropdown:hover{
+    display: flex;
+}
+
+footer{
+    background-color: var(--footer);
+    padding-top: 1%;
+}
+.footerDiv{
+    width: 100%;
+}
+.socialBar{
+    margin: auto;
+    text-align: center;
+}
+.smallIcon{
+    width: 3%;
+    margin: 0 1% 1% 1%;
+}
+.bottomText{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.copyrightText{
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+.createdByText{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/*std text*/
+.heading{
+    font-size: xx-large;
+    text-align: center;
+    color: var(--head);
+}
+.subhead{
+    font-size: xx-large;
+    color: var(--head);
+    margin-bottom: 0px;
+    text-align: left;
+}
+.subhead2{
+    font-size: x-large;
+    color: var(--head);
+    margin-top: 0px;
+    text-align: left;
+}
+p{
+    font-size: x-large;
+    text-align: center;
+    color: var(--para);
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    color: var(--para);
+}
+h2{
+    font-size: large;
+    text-align: center;
+    color: var(--head);
+}
+
+/*Home*/
+.infoPara{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.splitDiv{
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.sideDiv{
+    display: block;
+    width: 50%;
+    height: fit-content;
+    padding: 5% 3% 5% 3%;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+.teamLogo{
+    display: block;
+    width: 25%;
+    height: auto;
+    margin: 0% 2% 0% 2%;
+    object-fit: contain;
+}
+
+/*About*/
+.coachInfo{
+    width: 98%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-right: 2%;
+}
+.coachPhoto{
+    width: 20%;
+    height: auto;
+    display: block;
+    padding: 1% 1% 1% 1%;
+}
+
+/*Squad*/
+.SquadInfo{
+    width: 98%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.playerCard{
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: var(--tinted);
+    padding: 1% 2% 1% 2%;
+}
+.playerPhoto{
+    width: 100%;
+    height: auto;
+}
+

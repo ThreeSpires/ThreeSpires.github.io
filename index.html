@@ -1,0 +1,42 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body onload="PageLoad()">
+    
+    <!-- NAV BAR-->
+    <header id="Header"></header>
+
+    <!-- Site Container-->
+    <div class="siteContainer">
+        <p class="infoPara">Three Spires UTD is an amateur football club based in staffordshire. Currently playing in the Staffordshire County Division 2.</p>
+        <p class="infoPara"></p>
+
+        <div class="splitDiv">
+            <div class="sideDiv">
+                <h1 class="heading">Fixtures</h1>
+                <div class="score"> 
+                    <img src="images/logo.png" alt="Home" class="teamLogo">
+                    <h1>0 v 0</h1>
+                    <img src="images/logo.png" alt="Away" class="teamLogo">
+                </div>
+            </div>
+            <div class="sideDiv">
+                <h1 class="heading">Results</h1>
+                <div class="score"> 
+                    <img src="images/logo.png" alt="Home" class="teamLogo">
+                    <h1>0 v 0</h1>
+                    <img src="images/logo.png" alt="Away" class="teamLogo">
+                </div>
+            </div>
+        </div>
+
+        
+        <script> 
+        $(function(){
+        $("#Header").load("common/header.html"); 
+        $("#Footer").load("common/footer.html");
+        });
+        </script>
+        </div>
+        <footer id="Footer"></footer>
+</body>
