@@ -16,11 +16,12 @@ body{
     --clearWhite: rgba(240,240,240,0.6);
     --tinted: rgba(50,50,50,0.2);
 
-    /*blue --background: rgb(115, 115, 255);*/
-    --background: rgb(255, 50, 50);
+     --background: rgb(115, 115, 255);
+    /*red --background: rgb(255, 50, 50);*/
     --header: rgb(50,50,50);
     --footer: rgba(225,225,225);
-    --navText: rgb(225,225,225);
+    --navText: rgb(225, 225, 225);
+    --button: rgb(225,225,225);
 
     --splitDiv: rgb(150,150,150);
 
@@ -46,18 +47,15 @@ header{
     padding-top: 2px;
     margin-bottom: 10%;
 }
-#logoTop{
-    height: 100%;
-    text-align: right;
-    margin-right: 5px;
-    filter: drop-shadow(0px 5px 5px var(--shadow));
-}
 #logoTop1{
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     height: 250%;
     margin-top: .25%;
-    margin-right: 43.5%;
-    margin-left: 43.5%;
     filter: drop-shadow(0px 5px 5px var(--shadow));
 }
 nav{
@@ -140,11 +138,13 @@ footer{
     width: 100%;
     text-align: left;
     margin-left: 10px;
+    font-size: medium;
 }
 .createdByText{
     width: 100%;
     text-align: right;
     margin-right: 10px;
+    font-size: medium;
 }
 
 /*std text*/
@@ -200,6 +200,12 @@ h2{
     padding: 5% 3% 5% 3%;
 }
 
+.socialBlock{
+    display: block;
+    width: 33%;
+    height: fit-content;
+}
+
 .score{
     display: flex;
     flex-direction: row;
@@ -214,7 +220,7 @@ h2{
     object-fit: contain;
 }
 
-/*About*/
+/*Squad*/
 .coachInfo{
     width: 98%;
     min-height: fit-content;
@@ -229,8 +235,6 @@ h2{
     display: block;
     padding: 1% 1% 1% 1%;
 }
-
-/*Squad*/
 .SquadInfo{
     width: 98%;
     min-height: fit-content;
@@ -253,3 +257,20 @@ h2{
     height: auto;
 }
 
+/*Club Details*/
+
+button{
+    width: 50%;
+    height: 10%;
+    margin: 5% 25% 5% 25%;
+    font-size: large;
+    filter: drop-shadow(0px 5px 5px var(--shadow));
+    border-radius: 5px;
+    border: none;
+    background-color: var(--button);
+    display: block;
+}
+button:hover{
+    cursor: pointer;
+    filter: opacity(0.5) drop-shadow(0px 5px 5px var(--shadow));
+}
