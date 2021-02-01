@@ -123,6 +123,7 @@ footer{
 }
 .socialBar{
     margin: auto;
+    margin-bottom: -50;
     text-align: center;
 }
 .smallIcon{
@@ -204,6 +205,12 @@ h2{
     display: block;
     width: 33%;
     height: fit-content;
+}
+
+.fb-page{
+    display: block;
+    margin: auto;
+    width: 75%;
 }
 
 .score{
