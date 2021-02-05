@@ -13,7 +13,7 @@ body{
 
 :root {
     --shadow: rgb(50,50,50);
-    --clearWhite: rgba(240,240,240,0.6);
+    --clearWhite: rgba(255, 255, 255, 0.2);
     --tinted: rgba(50,50,50,0.2);
 
      --background: rgb(115, 115, 255);
@@ -37,7 +37,7 @@ header{
     position: relative;
     left: 0;
     top: 0;
-    height: 10%;
+    height: 5em;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@ header{
     background-color: var(--header);
     z-index: 1;
     padding-top: 2px;
-    margin-bottom: 10%;
+    margin-bottom: 10.5em;
 }
 #logoTop1{
     position: absolute;
@@ -54,13 +54,13 @@ header{
     left: 0;
     right: 0;
     text-align: center;
-    height: 250%;
-    margin-top: .25%;
+    height: 15em;
+    margin-top: .2em;
     filter: drop-shadow(0px 5px 5px var(--shadow));
 }
 nav{
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -116,18 +116,20 @@ nav a:hover {
 
 footer{
     background-color: var(--footer);
-    padding-top: 1%;
+    padding-top: 1em;
+    margin-top: 1em;
 }
 .footerDiv{
     width: 100%;
 }
 .socialBar{
     margin: auto;
+    margin-bottom: -2em;
     text-align: center;
 }
 .smallIcon{
-    width: 3%;
-    margin: 0 1% 1% 1%;
+    width: 3em;
+    margin: 0em .5em .5em .5em;
 }
 .bottomText{
     width: 100%;
@@ -149,29 +151,29 @@ footer{
 
 /*std text*/
 .heading{
-    font-size: xx-large;
+    font-size: 2vw;
     text-align: center;
     color: var(--head);
 }
 .subhead{
-    font-size: xx-large;
+    font-size: 2vw;
     color: var(--head);
     margin-bottom: 0px;
     text-align: left;
 }
 .subhead2{
-    font-size: x-large;
+    font-size: 1.25vw;
     color: var(--head);
     margin-top: 0px;
     text-align: left;
 }
 p{
-    font-size: x-large;
+    font-size: 1.5vw;
     text-align: center;
     color: var(--para);
 }
 h1{
-    font-size: 400%;
+    font-size: 2vw;
     text-align: center;
     color: var(--para);
 }
@@ -195,28 +197,40 @@ h2{
 }
 .sideDiv{
     display: block;
-    width: 50%;
+    width: 45%;
+    margin: 0% 5% 1% 5%;
     height: fit-content;
-    padding: 5% 3% 5% 3%;
+    box-shadow: -5px 5px 4px var(--shadow);
+    background-color: var(--clearWhite);
+    border: white solid ;
+    padding: 0% 1% 1% 1%;
 }
 
 .socialBlock{
-    display: block;
+    display:block;
+    object-fit: contain;
     width: 33%;
     height: fit-content;
+}
+
+.fb-page{
+    display: block;
+    margin: auto;
+    width: 550px !important;
 }
 
 .score{
     display: flex;
     flex-direction: row;
     margin: auto;
+    margin-bottom: 0;
     justify-content: center;
 }
 .teamLogo{
     display: block;
-    width: 25%;
+    width: 20%;
     height: auto;
-    margin: 0% 2% 0% 2%;
+    margin: 0% 2% 2% 2%;
     object-fit: contain;
 }
 
@@ -230,9 +244,10 @@ h2{
     margin-right: 2%;
 }
 .coachPhoto{
-    width: 20%;
+    width: 15%;
     height: auto;
     display: block;
+    object-fit: contain;
     padding: 1% 1% 1% 1%;
 }
 .SquadInfo{
@@ -262,7 +277,7 @@ h2{
 button{
     width: 50%;
     height: 10%;
-    margin: 5% 25% 5% 25%;
+    margin: 0% 25% 5% 25%;
     font-size: large;
     filter: drop-shadow(0px 5px 5px var(--shadow));
     border-radius: 5px;
