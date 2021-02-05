@@ -219,6 +219,13 @@ h2{
     width: 550px !important;
 }
 
+.embedsocial-hashtag{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1% 1% 1% 1%;
+    margin: 0 1% 0 1%;
+}
+
 .score{
     display: flex;
     flex-direction: row;
@@ -270,6 +277,16 @@ h2{
 .playerPhoto{
     width: 100%;
     height: auto;
+}
+
+/*Contact*/
+
+.link{
+    font-size: 2em;
+    color: var(--button);
+    display: block;
+    margin: auto;
+    width: fit-content;
 }
 
 /*Club Details*/
