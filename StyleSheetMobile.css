@@ -140,7 +140,7 @@ footer{
     text-align: center;
 }
 .smallIcon{
-    width: 15%;
+    width: 10%;
     margin: 1% 1% 1% 1%;
 }
 .bottomText{
@@ -166,28 +166,33 @@ footer{
     font-size: 2.5em;
     text-align: center;
     color: var(--head);
+    margin: auto 0 auto 0;
 }
 .subhead{
     font-size: 1.75em;
     color: var(--head);
     margin-bottom: 0px;
     text-align: left;
+    margin: auto 0 auto 0;
 }
 .subhead2{
     font-size: 1em;
     color: var(--head);
     margin-top: 0px;
     text-align: left;
+    margin: auto 0 auto 0;
 }
 p{
     font-size: 1em;
     text-align: center;
     color: var(--para);
+    margin: auto 0 auto 0;
 }
 h1{
-    font-size:2.5em;
+    font-size:2em;
     text-align: center;
     color: var(--para);
+    margin: auto 0 auto 0;
 }
 h2{
     font-size: .8em;
@@ -305,11 +310,13 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 /*Contact*/
 
 .link{
-    font-size: 2em;
+    font-size: 1em;
     color: var(--button);
     display: block;
     margin: auto;
+    margin-bottom: 1em;
     width: fit-content;
+    text-align: center;
 }
 
 /*Club Details*/
