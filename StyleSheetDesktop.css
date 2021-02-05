@@ -213,10 +213,28 @@ h2{
     height: fit-content;
 }
 
-.fb-page{
+/* .fb-page{
     display: block;
     margin: auto;
     width: 550px !important;
+    border-radius: 5px;
+} */
+body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span {
+    display: block;
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > iframe{
+    display: block;
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
 }
 
 .embedsocial-hashtag{
