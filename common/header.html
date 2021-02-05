@@ -1,16 +1,40 @@
 <head>
-    <link rel="stylesheet" href="StyleSheetDesktop.css">
     <link rel="icon" href="favicon.ico" type="image/icon"/>
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="StyleSheetDesktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="StyleSheetMobile.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body>
     <nav id="NavBar"></nav>
     <img src="images/logo.png" alt="Logo" id="logoTop1">
-    
+    <img id="Menu" src="images/menu.png" alt="" onclick="OpenMenu(this)">
 
+<script>
+    var open = false;
+    function OpenMenu(){
+        if(open == false){
+            var icon = document.getElementById("Menu");
+            icon.src = "images/menuOpen.png"
+            open = true;
+            var menu = document.getElementById("NavBar");
+            menu.style.display = "flex";
+        }
+        else{
+            var icon = document.getElementById("Menu");
+            icon.src = "images/menu.png"
+            open = false;
+            var menu = document.getElementById("NavBar");
+            menu.style.display = "none";
+        }
+    }
+</script>
     <script> 
         $(function(){
             $("#NavBar").load("common/Nav.html");
         });
-    </script> 
+
+</script>
 </body>
