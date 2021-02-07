@@ -19,7 +19,7 @@ body{
      --background: rgb(115, 115, 255);
     /*red --background: rgb(255, 50, 50);*/
     --header: rgb(50,50,50);
-    --footer: rgba(225,225,225);
+    --footer: rgb(225,225,225);
     --navText: rgb(225, 225, 225);
     --button: rgb(225,225,225);
 
@@ -129,7 +129,8 @@ footer{
     width: 100%;
     background-color: var(--footer);
     padding-top: 1%;
-    margin-top: 1%
+    padding-bottom: 1%;
+    margin-top: 1%;
 }
 .footerDiv{
     width: 100%;
@@ -257,14 +258,16 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 .score{
     display: flex;
     flex-direction: row;
+    height: auto;
     margin: auto;
     margin-bottom: 0;
+    margin-top: 0;
     justify-content: center;
 }
 .teamLogo{
     display: block;
-    width: 30%;
-    height: auto;
+    width: 5em;
+    height: 5em;
     margin: 0% 2% 2% 2%;
     object-fit: contain;
 }
@@ -279,8 +282,8 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
     margin-left: 2%;
 }
 .coachPhoto{
-    width: 25%;
-    height: auto;
+    width: 5em;
+    height: 5em;
     display: block;
     object-fit: contain;
     padding: 1% 1% 1% 1%;
