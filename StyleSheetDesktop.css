@@ -25,7 +25,7 @@ body{
 
     --splitDiv: rgb(150,150,150);
 
-    --head: rgb(225,225,225);
+    --head: rgb(25f5,255,255);
     --para:rgb(50, 50, 50);
     
     
@@ -207,7 +207,7 @@ h2{
     height: fit-content;
     box-shadow: -5px 5px 4px var(--shadow);
     background-color: var(--clearWhite);
-    /*border: white solid ;*/
+    /*:: white solid ;*/
     padding: 0% 1% 1% 1%;
 }
 
