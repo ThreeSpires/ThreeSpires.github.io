@@ -266,16 +266,17 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 
 /*Squad*/
 .coachInfo{
-    width: 98%;
+    width: auto;
     min-height: fit-content;
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    margin-right: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 .coachPhoto{
-    width: 15em;
-    height: 15em;
+    width: 10%;
+    /*height: 15em;*/
     display: block;
     object-fit: contain;
     padding: 1% 1% 1% 1%;
@@ -298,8 +299,11 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
     padding: 1% 2% 1% 2%;
 }
 .playerPhoto{
-    width: 100%;
+    width: 80%;
     height: auto;
+    object-fit: contain;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*Contact*/
