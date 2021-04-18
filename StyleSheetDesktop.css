@@ -16,7 +16,7 @@ body{
     --clearWhite: rgba(255, 255, 255, 0.2);
     --tinted: rgba(50,50,50,0.2);
 
-     --background: rgb(115, 115, 255);
+    --background: rgb(115, 115, 255);
     /*red --background: rgb(255, 50, 50);*/
     --header: rgb(50,50,50);
     --footer: rgb(225,225,225);
@@ -132,8 +132,9 @@ footer{
     text-align: center;
 }
 .smallIcon{
-    width: 3em;
-    margin: 0em .5em .5em .5em;
+    width: 2em;
+    height: 2em;
+    margin: 0em .5em 0em .5em;
 }
 .bottomText{
     width: 100%;
@@ -158,6 +159,7 @@ footer{
     font-size: 2vw;
     text-align: center;
     color: var(--head);
+    margin-top: 1em;
 }
 .subhead{
     font-size: 2vw;
@@ -180,7 +182,7 @@ h1{
     font-size: 2vw;
     text-align: center;
     color: var(--para);
-    margin: auto 0 auto 0;
+    margin: 1em 0 auto 0;
 }
 h2{
     font-size: large;
@@ -309,11 +311,16 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 /*Contact*/
 
 .link{
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--button);
     display: block;
-    margin: auto;
     width: fit-content;
+    margin: 1em auto auto auto;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+    background-color: var(--clearWhite);
+    border-radius: 1em;
 }
 
 /*Club Details*/
