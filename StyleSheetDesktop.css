@@ -4,6 +4,7 @@
 }
 body{
     background-color: var(--background);
+    background-image: linear-gradient(var(--background), var(--background2));
     margin: 0px 0px 0px 0px;
 }
 .siteContainer{
@@ -17,9 +18,10 @@ body{
     --tinted: rgba(50,50,50,0.2);
 
     --background: rgb(115, 115, 255);
+    --background2: rgb(46, 46, 97);
     /*red --background: rgb(255, 50, 50);*/
     --header: rgb(50,50,50);
-    --footer: rgb(225,225,225);
+    --footer: rgba(225,225,225,.8);
     --navText: rgb(225, 225, 225);
     --button: rgb(225,225,225);
 
