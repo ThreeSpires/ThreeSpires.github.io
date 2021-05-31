@@ -17,8 +17,8 @@ body{
     --clearWhite: rgba(255, 255, 255, 0.2);
     --tinted: rgba(50,50,50,0.2);
 
-     --background: rgb(115, 115, 255);
-     --background2: rgb(46, 46, 97);
+    --background: rgb(115, 115, 255);
+    --background2: rgb(115, 210, 255);
     /*red --background: rgb(255, 50, 50);*/
     --header: rgb(50,50,50);
     --footer: rgba(225,225,225,.8);
@@ -50,17 +50,17 @@ header{
     margin-bottom: 1%;
 }
 #logoTop1{
-    height: 6em;
+    height: 4em;
     filter: drop-shadow(0px 5px 5px var(--shadow));
     padding-left: 5%;
 }
 
 #Menu{
     filter: invert(1);
-    width: 3em;
+    width: 2em;
     position: absolute;
     right:0;
-    padding: 1.5em 1.5em 1.5em 1.5em ;
+    padding: 1em 1em 1em 1em ;
 }
 #Menu:hover{
     cursor: pointer;
@@ -71,7 +71,7 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 6em;
+    margin-top: 4em;
     background-color: var(--header);
 }
 #NavBar{
@@ -315,17 +315,33 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 
 /*Contact*/
 
-.link{
-    font-size: 1.5em;
-    color: var(--button);
-    display: block;
-    width: fit-content;
-    margin: 1em auto auto auto;
-    padding: 1em 1em 1em 1em;
-    text-decoration: none;
+.contact{
     color: white;
-    background-color: var(--clearWhite);
-    border-radius: 1em;
+    font-size: 1.25em;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+}
+
+.mapDiv{
+    width: 90%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5% 2% 5%;
+}
+
+.addressPara{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin: 2% 2% 2% 2%;
+  font-size: 1.15em;
+}
+
+.gmap{
+    width: 100%;
+    height: 20em;
 }
 
 /*Club Details*/
