@@ -344,18 +344,22 @@ body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div > span > if
 
 /*Club Details*/
 
-button{
+.download{
     width: 50%;
-    height: 10%;
-    margin: 0% 25% 5% 25%;
-    font-size: large;
+    height: 2em;
+    margin: 1% 25% 5% 25%;
+    padding-top: .5em;
+    font-size: 1.75em;
     filter: drop-shadow(0px 5px 5px var(--shadow));
     border-radius: 5px;
     border: none;
+    color: black;
+    text-decoration: none;
     background-color: var(--button);
     display: block;
+    text-align: center;
 }
-button:hover{
+.download:hover{
     cursor: pointer;
     filter: opacity(0.5) drop-shadow(0px 5px 5px var(--shadow));
 }
