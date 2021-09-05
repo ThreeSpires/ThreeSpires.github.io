@@ -16,32 +16,60 @@
             <div class="sideDiv">
                 <h1 class="heading">Fixtures</h1>
 
-                <h2 class="details">Walsall Phoenix Reserves v Three Spires United<br>
-                    Saturday 4th September KO 2:30pm</h2>
+                <h2 class="details">Blurton Reds v Three Spires United<br>
+                    Saturday 11th September KO 2:30pm</h2>
                 <div class="score"> 
-                    <img src="images/walsallphoenix.png" alt="Home" class="teamLogo">
+                    <img src="images/blurton.png" alt="Home" class="teamLogo">
                     <h1>v</h1>
                     <img src="images/logo.png" alt="Away" class="teamLogo">
                 </div>
-                <h2 class="details1">ALDRIDGE STICK AND WICKET CLUB #2</h2>
+                <h2 class="details1">ST THOMAS MORE CATHOLIC ACADEMY</h2>
+
+                <h2 class="details">Florence Youth Development v Three Spires United<br>
+                    Saturday 18h September KO 2:30pm</h2>
+                <div class="score"> 
+                    <img src="images/florence.png" alt="Home" class="teamLogo">
+                    <h1>v</h1>
+                    <img src="images/logo.png" alt="Away" class="teamLogo">
+                </div>
+                <h2 class="details1">FLORENCE COLLIERY SOCIAL WELFARE CENTRE</h2>
+
+                <h2 class="details">Three Spires United v Milton United FC Reserves<br>
+                    Saturday 25th September KO 2:30pm</h2>
+                <div class="score"> 
+                    <img src="images/logo.png" alt="Home" class="teamLogo">
+                    <h1>v</h1>
+                    <img src="images/milton.png" alt="Away" class="teamLogo">
+                </div>
+                <h2 class="details1">LANDAU-FORTE ACADEMY AMINGTON</h2>
 
             </div>
             <div class="sideDiv">
                 <h1 class="heading">Results</h1>
                 <select id="Month" name="Month" onchange="UpdateFixtureList()">
-                    <!-- <option value="January">January</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <!-- <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                    <option value="January">January</option>
                     <option value="February">February</option>
                     <option value="March">March</option>
                     <option value="April">April</option>
                     <option value="May">May</option>
                     <option value="June">June</option> -->
-                    <option value="July">July</option>
-                    <option value="August">August</option>
-                    <!-- <option value="September">September</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option> -->
                 </select>
+                <div id = "September">
+                    <h2 class="details">Walsall Phoenix Reserves v Three Spires United</h2>
+                    <h2 class="details1">League Game 3: Saturday Sepetember 4th</h2>
+                    <div class="score"> 
+                        <img src="images/walsallphoenix.png" alt="Home" class="teamLogo">
+                        <h1>3 - 0</h1>
+                        <img src="images/logo.png" alt="Away" class="teamLogo">
+                    </div>
+                </div>
+
                 <div id = "August">
                     <h2 class="details">Three Spires United v AFC Alsager Reserves</h2>
                     <h2 class="details1">League Game 2: Saturday August 21st</h2>
@@ -103,7 +131,7 @@
         });
 
         var selector = document.getElementById("Month");
-        selector.selectedIndex = "1";
+        selector.selectedIndex = "2";
         </script>
 
         <script>
