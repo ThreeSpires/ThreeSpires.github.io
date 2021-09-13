@@ -380,3 +380,11 @@ select{
     cursor: pointer;
     filter: opacity(0.5) drop-shadow(0px 5px 5px var(--shadow));
 }
+
+/*Points*/
+
+.viewer{
+    width: 60%;
+    height: 100%;
+    margin: 1em 20% 1em 20%;
+}
