@@ -16,15 +16,6 @@
             <div class="sideDiv">
                 <h1 class="heading">Fixtures</h1>
 
-                <h2 class="details">Three Spires United v Milton United FC<br>
-                    Saturday 15th January KO 2:00pm</h2>
-                <div class="score"> 
-                    <img src="images/logo.png" alt="Home" class="teamLogo">
-                    <h1>v</h1>
-                    <img src="images/milton.png" alt="Away" class="teamLogo">
-                </div>
-                <h2 class="details1">Shenstone Country Club</h2>
-
                 <h2 class="details">Warstones Wanderers v Three Spires United<br>
                     Saturday 29th January KO 2:00pm</h2>
                 <div class="score"> 
@@ -44,13 +35,23 @@
                     <option value="October">October</option>
                     <option value="November">November</option>
                     <option value="December">December</option>
-                    <!--<option value="January">January</option>
-                    <option value="February">February</option>
+                    <option value="January">January</option>
+                    <!--<option value="February">February</option>
                     <option value="March">March</option>
                     <option value="April">April</option>
                     <option value="May">May</option>
                     <option value="June">June</option> -->
                 </select>
+
+                <div id = "January">
+                    <h2 class="details">Three Spires United v Milton United FC</h2>
+                    <h2 class="details1">Leek Cup: Saturday 15th January</h2>
+                    <div class="score"> 
+                        <img src="images/logo.png" alt="Home" class="teamLogo">
+                        <h1>0 - 11</h1>
+                        <img src="images/milton.png" alt="Away" class="teamLogo">
+                    </div>
+                </div>
                 <div id = "December">
                     <h2 class="details">Stone Dominoes v Three Spires United</h2>
                     <h2 class="details1">League Game 11: Saturday 4th December</h2>
@@ -207,7 +208,7 @@
         });
 
         var selector = document.getElementById("Month");
-        selector.selectedIndex = "5";
+        selector.selectedIndex = "6";
         </script>
 
         <script>
