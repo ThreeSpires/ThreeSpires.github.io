@@ -221,6 +221,15 @@ h2{
     height: fit-content;
 }
 
+.fixturesDiv{
+    display: block;
+    object-fit: contain;
+    width: 10%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 1%;
+}
+
 /* .fb-page{
     display: block;
     margin: auto;

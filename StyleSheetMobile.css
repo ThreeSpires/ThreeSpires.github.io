@@ -232,6 +232,14 @@ h2{
     margin: 0% 5% 5% 5%;
 }
 
+.fixturesDiv{
+    display: block;
+    object-fit: contain;
+    width: 10%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 1%;
+}
 
 body > div.siteContainer > div:nth-child(5) > div:nth-child(1) > div {
     display: block;
